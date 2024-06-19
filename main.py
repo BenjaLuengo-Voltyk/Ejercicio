@@ -1,5 +1,5 @@
 import os
-
+import suma
 os.system("cls")
 
 while True:
@@ -11,8 +11,7 @@ while True:
 
     match opt:
         case "1":
-            #sumar()
-            pass
+            suma()
         case "2":
             #restar()
             pass
